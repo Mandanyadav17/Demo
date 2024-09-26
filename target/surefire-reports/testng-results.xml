@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="2" failed="2" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-14T23:34:08 IST" name="Suite" finished-at="2024-09-14T23:34:55 IST" duration-ms="46239">
+    <groups>
+      <group name="Error handling">
+        <method signature="Errormessage.loginerrormessage()[pri:0, instance:Scratchproject.demoproject.Errormessage@70ed52de]" name="loginerrormessage" class="Scratchproject.demoproject.Errormessage"/>
+      </group> <!-- Error handling -->
+      <group name="Purchaase">
+        <method signature="ecommerce.submitorder(java.util.HashMap)[pri:0, instance:Scratchproject.demoproject.ecommerce@7139992f]" name="submitorder" class="Scratchproject.demoproject.ecommerce"/>
+      </group> <!-- Purchaase -->
+    </groups>
+    <test started-at="2024-09-14T23:34:08 IST" name="Errormessage" finished-at="2024-09-14T23:34:36 IST" duration-ms="27752">
+      <class name="Scratchproject.demoproject.Errormessage">
+        <test-method is-config="true" signature="launchappilication()[pri:0, instance:Scratchproject.demoproject.Errormessage@70ed52de]" started-at="2024-09-14T23:34:09 IST" name="launchappilication" finished-at="2024-09-14T23:34:16 IST" duration-ms="7182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchappilication -->
+        <test-method signature="loginerrormessage()[pri:0, instance:Scratchproject.demoproject.Errormessage@70ed52de]" started-at="2024-09-14T23:34:16 IST" name="loginerrormessage" finished-at="2024-09-14T23:34:17 IST" duration-ms="1606" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginerrormessage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Scratchproject.demoproject.Errormessage@70ed52de]" started-at="2024-09-14T23:34:17 IST" name="teardown" finished-at="2024-09-14T23:34:18 IST" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="launchappilication()[pri:0, instance:Scratchproject.demoproject.Errormessage@70ed52de]" started-at="2024-09-14T23:34:18 IST" name="launchappilication" finished-at="2024-09-14T23:34:22 IST" duration-ms="4816" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchappilication -->
+        <test-method signature="productmatchvalidation()[pri:0, instance:Scratchproject.demoproject.Errormessage@70ed52de]" started-at="2024-09-14T23:34:22 IST" name="productmatchvalidation" finished-at="2024-09-14T23:34:36 IST" duration-ms="13504" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertFalse(Assert.java:79)
+at org.testng.Assert.assertFalse(Assert.java:89)
+at Scratchproject.demoproject.Errormessage.productmatchvalidation(Errormessage.java:32)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:842)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productmatchvalidation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Scratchproject.demoproject.Errormessage@70ed52de]" started-at="2024-09-14T23:34:36 IST" name="teardown" finished-at="2024-09-14T23:34:36 IST" duration-ms="194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Scratchproject.demoproject.Errormessage -->
+    </test> <!-- Errormessage -->
+    <test started-at="2024-09-14T23:34:08 IST" name="ecommerce" finished-at="2024-09-14T23:34:55 IST" duration-ms="46239">
+      <class name="Scratchproject.demoproject.ecommerce">
+        <test-method is-config="true" signature="launchappilication()[pri:0, instance:Scratchproject.demoproject.ecommerce@7139992f]" started-at="2024-09-14T23:34:09 IST" name="launchappilication" finished-at="2024-09-14T23:34:17 IST" duration-ms="7666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchappilication -->
+        <test-method signature="submitorder(java.util.HashMap)[pri:0, instance:Scratchproject.demoproject.ecommerce@7139992f]" started-at="2024-09-14T23:34:17 IST" name="submitorder" data-provider="getdata" finished-at="2024-09-14T23:34:34 IST" duration-ms="17478" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{productname=ZARA COAT 3, password=Mandan17, email=mandan17@yopmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at Scratchproject.demoproject.ecommerce.submitorder(ecommerce.java:40)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:842)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitorder -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Scratchproject.demoproject.ecommerce@7139992f]" started-at="2024-09-14T23:34:35 IST" name="teardown" finished-at="2024-09-14T23:34:36 IST" duration-ms="786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="launchappilication()[pri:0, instance:Scratchproject.demoproject.ecommerce@7139992f]" started-at="2024-09-14T23:34:36 IST" name="launchappilication" finished-at="2024-09-14T23:34:40 IST" duration-ms="4230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchappilication -->
+        <test-method signature="submitorder(java.util.HashMap)[pri:0, instance:Scratchproject.demoproject.ecommerce@7139992f]" started-at="2024-09-14T23:34:40 IST" name="submitorder" data-provider="getdata" finished-at="2024-09-14T23:34:55 IST" duration-ms="14727" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{productname=ADIDAS ORIGINAL, password=Mandan17@, email=nidhi17@yopmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitorder -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Scratchproject.demoproject.ecommerce@7139992f]" started-at="2024-09-14T23:34:55 IST" name="teardown" finished-at="2024-09-14T23:34:55 IST" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method signature="orderhistorytest()[pri:0, instance:Scratchproject.demoproject.ecommerce@7139992f]" started-at="2024-09-14T23:34:55 IST" name="orderhistorytest" finished-at="2024-09-14T23:34:55 IST" depends-on-methods="Scratchproject.demoproject.ecommerce.submitorder" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method Scratchproject.demoproject.ecommerce.orderhistorytest() on instance Scratchproject.demoproject.ecommerce@7139992f depends on not successfully finished methods 
+[Scratchproject.demoproject.ecommerce.submitorder() on instance Scratchproject.demoproject.ecommerce@7139992f]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method Scratchproject.demoproject.ecommerce.orderhistorytest() on instance Scratchproject.demoproject.ecommerce@7139992f depends on not successfully finished methods 
+[Scratchproject.demoproject.ecommerce.submitorder() on instance Scratchproject.demoproject.ecommerce@7139992f]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:842)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderhistorytest -->
+      </class> <!-- Scratchproject.demoproject.ecommerce -->
+    </test> <!-- ecommerce -->
+  </suite> <!-- Suite -->
+</testng-results>

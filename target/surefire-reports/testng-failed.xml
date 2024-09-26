@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="Scratchproject.Testcomponenets.Listeners"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="Errormessage(failed)" verbose="0">
+    <classes>
+      <class name="Scratchproject.demoproject.Errormessage">
+        <methods>
+          <include name="productmatchvalidation"/>
+          <include name="launchappilication"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Scratchproject.demoproject.Errormessage -->
+    </classes>
+  </test> <!-- Errormessage(failed) -->
+  <test thread-count="5" parallel="tests" name="ecommerce(failed)" verbose="0">
+    <classes>
+      <class name="Scratchproject.demoproject.ecommerce">
+        <methods>
+          <include name="orderhistorytest"/>
+          <include name="submitorder" invocation-numbers="0"/>
+          <include name="launchappilication"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Scratchproject.demoproject.ecommerce -->
+    </classes>
+  </test> <!-- ecommerce(failed) -->
+</suite> <!-- Failed suite [Suite] -->
